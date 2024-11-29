@@ -20,7 +20,7 @@
 }
 
 header{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: green;
     min-height: 100vh;
     background-image: url(./images/desktop/image-header.jpg);
@@ -72,13 +72,13 @@ ul li{
 
 
 .egg-section{
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     display: flex;
     }
 
 
 .egg-text{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 500px;
     width: 50%;
     display: flex;
@@ -87,7 +87,7 @@ ul li{
 }
 
 .eggbrand{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     font-size: 40px;
     }
 
@@ -98,7 +98,7 @@ ul li{
 
 
 .eggcontent{
-   border: 2px dotted red;
+   /* border: 2px dotted red; */
    max-width: 350px;
    }
 
@@ -112,7 +112,7 @@ ul li{
 
 
 .egg-image{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 500px;
     width: 50%;
     background-image: url(./images/desktop/image-transform.jpg);
@@ -123,13 +123,13 @@ ul li{
 
 
 .cup-section{
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     display: flex;
     }
 
 
 .cup-text{
-    border: 2px solid indigo;
+    /* border: 2px solid indigo; */
     height: 500px;
     width: 50%;
     display: flex;
@@ -138,19 +138,19 @@ ul li{
     }
 
     .cupbrand{
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         font-size: 40px;
         }
     
     .cupservice{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-top: 30px;
         line-height: 1.5;
     }
     
     
     .cupcontent{
-       border: 2px dotted red;
+       /* border: 2px dotted red; */
        max-width: 350px;
        }
     
@@ -164,7 +164,7 @@ ul li{
 
 
 .cup-image{
-    border: 2px solid orchid;
+    /* border: 2px solid orchid; */
     height: 500px;
     width: 50%;
     background-image: url(./images/desktop/image-stand-out.jpg);
@@ -175,13 +175,13 @@ ul li{
 
 
 .cherryandorange-section{
-    border: 2px solid olive;
+    /* border: 2px solid olive; */
     display: flex;
     }
 
 
 .cherry-image{
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     height: 500px;
     width: 50%;
     background-image: url(./images/desktop/image-graphic-design.jpg);
@@ -192,7 +192,7 @@ ul li{
 
 
 .cherry-text{
-    border: 2px solid;
+    /* border: 2px solid; */
     height:100%;
     width: 100%;
     display: flex;
@@ -201,7 +201,7 @@ ul li{
 }
 
 .cherry-content{
-    border: 2px solid;
+    /* border: 2px solid; */
     max-width: 300px;
     text-align: center;
     margin-bottom: 30px;
@@ -217,7 +217,7 @@ ul li{
   }
 
 .orangee-image{
-    border: 2px solid teal;
+    /* border: 2px solid teal; */
     height: 500px;
     width: 50%;
     background-image: url(./images/desktop/image-photography.jpg);
@@ -228,7 +228,7 @@ ul li{
 
 
 .orangeetext{
-    border: 2px solid;
+    /* border: 2px solid; */
     height:100%;
     width: 100%;
     display: flex;
@@ -237,7 +237,7 @@ ul li{
 }
 
 .orangeecontent{
-    border: 2px solid;
+    /* border: 2px solid; */
     max-width: 300px;
     text-align: center;
     margin-bottom: 30px;
@@ -254,7 +254,7 @@ ul li{
 
 .clienttestimonials{
         background-color: white;
-        border: 3px solid yellow;
+        /* border: 3px solid yellow; */
         background-color: var(--White);
         text-align: center;
         margin-top: 70px;
@@ -263,7 +263,7 @@ ul li{
 
 
 .testimonials{
-    border: 4px dotted blue;
+    /* border: 4px dotted blue; */
     display: flex;
     justify-content: space-between;
     gap: 100px;
@@ -273,7 +273,7 @@ ul li{
 }
 
 .emily{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     text-align: center;
     line-height: 1.5;
     }
@@ -296,7 +296,7 @@ ul li{
 }
 
 .thomas{
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     text-align: center;
     line-height: 1.5;
 }
@@ -318,7 +318,7 @@ ul li{
 }
 
 .jenie{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     text-align: center;
     line-height: 1.5;
 }
@@ -342,7 +342,7 @@ ul li{
 
 
 .prefooter{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 70px;
@@ -350,7 +350,7 @@ ul li{
 
 
 .yogurt{
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     height: 300px;
     background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
     background-position: center;
@@ -359,7 +359,7 @@ ul li{
 }    
 
 .orangeapple{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 300px;
     background-image: url(./images/desktop/image-gallery-orange.jpg);
     background-position: center;
@@ -368,7 +368,7 @@ ul li{
 }    
 
 .icecreampaper{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     height: 300px;
     background-image: url(./images/desktop/image-gallery-cone.jpg);
     background-position: center;
@@ -377,7 +377,7 @@ ul li{
     }
 
 .sugaerstak{
-    border: 2px solid palevioletred;
+    /* border: 2px solid palevioletred; */
     height: 300px;
     background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
     background-position: center;
@@ -387,13 +387,13 @@ ul li{
 
 
 .footer{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     background-color: var(--Dark-moderate-cyan);
     }
 
 
 .footerlogo{
-    border: 2px dotted greenyellow;
+    /* border: 2px dotted greenyellow; */
     padding-top: 50px;
     padding-bottom: 40px;
     text-align: center;
@@ -404,7 +404,7 @@ ul li{
 
 
 .navii{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     list-style-type: none;
     gap: 80px;  
     display: flex;
@@ -420,7 +420,7 @@ ul li{
 .footer-sm{
     padding-top: 50px;
     padding-bottom: 70px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
     word-spacing: 40px;
 }
