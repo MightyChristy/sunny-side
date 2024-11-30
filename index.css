@@ -30,7 +30,7 @@ header{
 }
 
 header nav{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +38,7 @@ header nav{
     }
 
     nav ul{
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         display: flex;
         list-style-type: none;
         gap: 40px;
@@ -56,7 +56,7 @@ ul li{
 
   
     .creatives{
-        border: 2px solid pink;
+        /* border: 2px solid pink; */
         text-align: center;
         font-size: 50px;
         margin-top: 100px;
@@ -89,11 +89,14 @@ ul li{
 .eggbrand{
     /* border: 2px solid blue; */
     font-size: 40px;
+    color: var(--Very-dark-desaturated-blue);
     }
 
 .eggservice{
     margin-top: 30px;
     line-height: 1.5;
+    font-weight: bold;
+    color: var(--Very-dark-grayish-blue);
 }
 
 
@@ -108,6 +111,7 @@ ul li{
     border-bottom: 10px solid yellow;
     border-radius: 10px;
     display: inline-block;
+    color: var(--Very-dark-desaturated-blue);
    }
 
 
@@ -140,12 +144,15 @@ ul li{
     .cupbrand{
         /* border: 2px solid blue; */
         font-size: 40px;
+        color: var(--Very-dark-desaturated-blue);
         }
     
     .cupservice{
         /* border: 2px solid red; */
         margin-top: 30px;
         line-height: 1.5;
+        font-weight: bold;
+    color: var(--Very-dark-grayish-blue)
     }
     
     
@@ -160,6 +167,7 @@ ul li{
         border-bottom: 10px solid var(--Soft-red);
         border-radius: 10px;
         display: inline-block;
+        color: var(--Very-dark-desaturated-blue);
        }
 
 
@@ -210,10 +218,14 @@ ul li{
   .cherrybrand{
     margin-bottom: 20px;
     line-height: 1.5;
+    font-size: 40px;
+    color: var(--Dark-desaturated-cyan);
   }
 
   .cherryservice{
     text-align: center;
+    color: var(--Dark-desaturated-cyan);
+    font-weight: bold; 
   }
 
 .orangee-image{
@@ -233,7 +245,8 @@ ul li{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;   
+    align-items: flex-end;  
+    color: var(--Very-dark-desaturated-blue); 
 }
 
 .orangeecontent{
@@ -246,30 +259,31 @@ ul li{
   .orangeebrand{
     margin-bottom: 38px;
     line-height: 1.5;
+    font-size: 40px;
   }
 
   .orangeeservice{
     text-align: center;
+    font-weight: bold;
   }
 
 .clienttestimonials{
-        background-color: white;
         /* border: 3px solid yellow; */
         background-color: var(--White);
         text-align: center;
         margin-top: 70px;
+        margin-bottom: 80px;
         font-size: 20px;
+        color: var(--Grayish-blue);
 }
 
 
 .testimonials{
     /* border: 4px dotted blue; */
-    display: flex;
-    justify-content: space-between;
-    gap: 100px;
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px;
+    gap: 50px;
 }
 
 .emily{
@@ -289,10 +303,18 @@ ul li{
 
 .emilybrand{
     margin-top: 40px;
+    color: var(--Very-dark-grayish-blue);
+    font-weight: bold;
 }
 
 .emilyservice{
-    margin-top: 40px;
+    margin-top: 50px;
+    color: var(--Very-dark-desaturated-blue);
+
+}
+
+.emilyengage{
+    color: var(--Grayish-blue);
 }
 
 .thomas{
@@ -311,10 +333,18 @@ ul li{
 
 .thomasbrand{
     margin-top: 40px;
+    color: var(--Very-dark-grayish-blue);
+    font-weight: bold;
 }
 
 .thomasservice{
-    margin-top: 40px;
+    margin-top: 25px;
+    color: var(--Very-dark-desaturated-blue);
+
+}
+
+.thomasengage{
+    color: var(--Grayish-blue);
 }
 
 .jenie{
@@ -329,10 +359,17 @@ ul li{
 
 .jeniebrand{
     margin-top: 40px;
+    color: var(--Very-dark-grayish-blue);
+    font-weight: bold;
 }
 
 .jenieservice{
-    margin-top: 40px;
+    margin-top: 50px;
+    color: var(--Very-ark-desaturated-blue);
+}
+
+.jenieengage{
+    color: var(--Grayish-blue);
 }
 
 .jenieone{
@@ -449,11 +486,23 @@ ul li{
     nav ul{
         display: none;
     }
+    .creatives{
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+    .arrow-down{
+        margin-top: 50px;
+    }
     .egg-section{
         flex-direction: column;
     }
     .egg-text{
         width: 100%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .eggbrand{
+        font-size: 40px;
     }
     .egg-image{
         width: 100%;
@@ -467,7 +516,9 @@ ul li{
     }
     .cup-text{
         width: 100%;
-    }
+        text-align: center;
+        font-weight: bolder;
+        }
     .cherryandorange-section{
         flex-direction: column;
     }
@@ -478,7 +529,10 @@ ul li{
         width: 100%;
     }
     .testimonials{
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .clienttestimonials{
+        font-size: 13px;
     }
     .prefooter{
         grid-template-columns: repeat(2, 1fr);
@@ -486,6 +540,5 @@ ul li{
     .arrow-down{
         padding-bottom: 100px;
     }
+}
 
-
-    }
